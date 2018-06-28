@@ -1,0 +1,25 @@
+body{
+    background-color: #68cdd5;
+}
+.box {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100%;
+    font-size: 20px;
+    color:white;
+    text-align: center;}
+.logo{
+    padding:100px;
+}
+.arrow{padding:2px;
+    float:left;
+    margin-left: -80px;
+}
+.icon1{
+    padding-top: 500px;
+    float:left;
+}
+.icon2{
+    padding-top: 500px;
+    float:right;
+}
