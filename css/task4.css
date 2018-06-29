@@ -68,11 +68,11 @@ button{
 }
 .code{
     float: right;
-    margin-top: 500px;
+    margin-top:480px;
     margin-right: 10px;
 }
 a{
     text-decoration: none;
     color: #83ccd7;
-    font-size: 28px;
+    font-size: 30px;
 }
