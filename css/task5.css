@@ -1,0 +1,174 @@
+header{
+    position: fixed;
+    background-color: #5fc0cd;
+    width:100%;
+    height:85px;
+    text-align: center;
+    line-height: 85px;
+    color: white;
+    font-size: 36px;
+    font-family: 宋体;
+    top:0;
+    z-index: 10;
+    left:0;
+}
+.arrow{float:left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.icon{
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    padding-top:125px;
+    margin-top:75px;
+    left:0;
+    background: url("../image/task5/docbackground.png") no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 36px;
+    font-family: 宋体;
+}
+.iconimg{
+    float:left;
+    padding-left: 30px;
+}
+.line1{
+    position: absolute;
+    padding-left: 300px;
+    margin-top: 40px;
+}
+.line2 {
+    position: absolute;
+    font-size: 26px;
+    padding-left: 300px;
+    padding-top: 50px;
+    font-family: 宋体;
+    margin-top:50px;
+}
+.line3{margin-left: 30px}
+.profession{
+    font-family: 宋体;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+    width:100%;
+}
+.vertiallinesp{
+    color: #5fc0cd;
+    font-size: 40px}
+.blank1{
+    width:100%;
+    height: 1px;
+    border-bottom-color:#e1e5e7;
+    border-bottom-style: solid;
+    border-width: 2px;
+    margin-top: 20px}
+.blank2{
+    width:100%;
+    height: 1px;
+    border-bottom-color:#e1e5e7;
+    border-bottom-style: solid;
+    margin-left: 20px;
+    margin-top:25px;
+    border-width: 2px}
+
+.startext1{
+    font-size: 28px;
+    margin-left: 10px;
+}
+.boxstar{
+    margin-left: 40px;
+    margin-top: 25px}
+.year{
+    position: relative;
+    font-size: 30px;
+    color:#e1e5e7;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.time {
+    font-size: 30px;
+    color:#e1e5e7;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.price {
+    font-size: 30px;
+    color:#e1e5e7;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.self-introduce {
+    font-size: 30px;
+    color: #e1e5e7;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.self-1{
+    width:250px;
+    float: left;
+
+}
+.selfcontent{
+    overflow: hidden;
+    color: black;
+    font-size: 25px;
+
+   }
+
+.yearcontent{color: black}
+.pricecontent{color: red}
+.button1{
+    height: 85px;
+    width: 40%;
+    background-color: white;
+    text-align:center;
+    font-size: 30px;
+    border: #5fc0cd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    color: #5fc0cd;
+    margin-left:50px ;
+}
+.button2{
+    height: 85px;
+    width: 40%;
+    background-color: white;
+    text-align:center;
+    font-size: 30px;
+    border: #5fc0cd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 200px;
+    color: #5fc0cd;
+    float: right;
+    margin-right: 50px;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color:#5fc0cd;
+    color: white;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color:#5fc0cd;
+    color: white;
+}
+
+.form {
+    width: 100%;
+    float: left;
+    margin-top: 520px;
+
+}
+
+
+
