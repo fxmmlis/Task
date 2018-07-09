@@ -1,156 +1,208 @@
+.body{
+    font-size: 62.5%;
+}
 header{
     position: fixed;
     background-color: #5fc0cd;
     width:100%;
-    height:85px;
+    height:2.5em;
     text-align: center;
-    line-height: 85px;
+    line-height: 2.5em;
     color: white;
-    font-size: 36px;
+    font-size:2em;
     font-family: 宋体;
     top:0;
     z-index: 10;
     left:0;
 }
 .arrow{float:left;
-    padding-left: 25px;
-    padding-top: 5px;
+    padding-left: 1em;
+    padding-top: 0.4em;
 }
 .icon{
     position: absolute;
-    height: 250px;
+    height: 12em;
     width: 100%;
-    padding-top:125px;
-    margin-top:75px;
+    /*padding-top:1.2em;*/
+    margin-top:4.4em;
     left:0;
+    right:0;
     background: url("../image/task5/docbackground.png") no-repeat;
     background-size: cover;
     color: white;
-    font-size: 36px;
+    /*font-size: 2.5em;*/
     font-family: 宋体;
 }
-.iconimg{
-    float:left;
-    padding-left: 30px;
+
+.iconimg img {
+    position: absolute;
+    width: 20%; height: 50%;
+    left: 5%; top: 20%;
 }
 .line1{
     position: absolute;
-    padding-left: 300px;
-    margin-top: 40px;
+    top: 30%;
+    left: 35%;
+    font-size: 1.5em;
 }
 .line2 {
     position: absolute;
-    font-size: 26px;
-    padding-left: 300px;
-    padding-top: 50px;
+    top: 50%;
+    left: 35%;
+    font-size: 1em;
     font-family: 宋体;
-    margin-top:50px;
 }
-.line3{margin-left: 30px}
+.line3{margin-left:1em }
+
 .profession{
     font-family: 宋体;
-    font-size: 28px;
+    font-size: 1em;
     font-weight: bold;
-    padding-left: 20px;
-    width:100%;
+    padding-left: 0.5em;
 }
 .vertiallinesp{
     color: #5fc0cd;
-    font-size: 40px}
+    font-size: 1em}
+
 .blank1{
     width:100%;
-    height: 1px;
+    height: 0.01em;
     border-bottom-color:#e1e5e7;
     border-bottom-style: solid;
-    border-width: 2px;
-    margin-top: 20px}
+    border-width: 0.1em;
+    margin-top: 1em}
 .blank2{
     width:100%;
-    height: 1px;
+    height: 0.01em;
     border-bottom-color:#e1e5e7;
     border-bottom-style: solid;
-    margin-left: 20px;
-    margin-top:25px;
-    border-width: 2px}
-
+    margin-left: 1em;
+    margin-top:1em;
+    border-width: 0.1em}
 .startext1{
-    font-size: 28px;
-    margin-left: 10px;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+}
+.star1 img{
+    display: inline-block;
+    width: 1em;
 }
 .boxstar{
-    margin-left: 40px;
-    margin-top: 25px}
+    margin-left: 2em;
+    margin-top: 1em}
 .year{
-    position: relative;
-    font-size: 30px;
-    color:#e1e5e7;
-    margin-left: 40px;
-    margin-top: 25px;
-}
-.time {
-    font-size: 30px;
-    color:#e1e5e7;
-    margin-top: 25px;
-    margin-left: 40px;
-}
-.price {
-    font-size: 30px;
-    color:#e1e5e7;
-    margin-top: 25px;
-    margin-left: 40px;
-}
-.self-introduce {
-    font-size: 30px;
-    color: #e1e5e7;
-    margin-top: 25px;
-    margin-left: 40px;
     display: flex;
+    font-size: 1em;
+    color:#e1e5e7;
+    margin-left: 1em;
+    margin-top: 1em;
     align-items: center;
 
 }
-.self-1{
-    width:165px;
+.time {
+    display: flex;
+    font-size: 1em;
+    color:#e1e5e7;
+    margin-left: 1em;
+    margin-top: 1em;
+    align-items: center;
+}
+.price {
+    display: flex;
+    font-size: 1em;
+    color:#e1e5e7;
+    margin-left: 1em;
+    margin-top: 1em;
+    align-items: center;
+}
+.year1{
+    text-align: center;
+    font-size: 1em;
+    width:6em;
     float: left;
+    vertical-align: middle;
+    border-right: 0.01em solid #ccc;
+padding-right: 1em}
+.time1{text-align: center;
+    font-size: 1em;
+    width:6em;
+    float: left;
+    vertical-align: middle;
+    border-right: 0.01em solid #ccc;
+    padding-right: 1em}
+.price1{text-align: center;
+    font-size: 1em;
+    width:6em;
+    float: left;
+    vertical-align: middle;
+    border-right: 0.01em solid #ccc;
+    padding-right: 1em}
+
+.self-introduce {
+    display: flex;
+    font-size: 1em;
+    color: #e1e5e7;
+    margin-top: 25px;
+    align-items: center;
+    margin-left: 1em;
 
 }
+.self-1{
+    text-align: center;
+    font-size: 1em;
+    width:6em;
+    float: left;
+    vertical-align: middle;
+    border-right: 0.01em solid #ccc;
+    padding-right: 1em
+
+
+}
+.pricecontent{margin-left: 1em;}
+.yearcontent{margin-left: 1em;}
 .selfcontent{
+    width: 70%;
     overflow: hidden;
     color: black;
-    font-size: 25px;
+    font-size: 1em;
+    margin-left: 1em;
 
    }
 
 .yearcontent{color: black}
 .pricecontent{color: red}
 .button1{
-    height: 85px;
+    height: 2em;
     width: 40%;
     background-color: white;
     text-align:center;
-    font-size: 30px;
+    font-size: 1.5em;
     border: #5fc0cd;
-    border-width: 2px;
+    border-width: 0.05em;
     border-style: solid;
     border-radius: 10px;
     margin-bottom: 0;
-    margin-top: 200px;
+    margin-top: 3em;
     color: #5fc0cd;
-    margin-left:50px ;
+    margin-left:8% ;
+    position:absolute;
 }
 .button2{
-    height: 85px;
+    height: 2em;
     width: 40%;
     background-color: white;
     text-align:center;
-    font-size: 30px;
+    font-size:1.5em;
     border: #5fc0cd;
-    border-width: 2px;
+    border-width: 0.05em;
     border-style: solid;
     border-radius: 10px;
-    margin-top: 200px;
+    position:absolute;
+    margin-top: 3em;
     color: #5fc0cd;
-    float: right;
-    margin-right: 50px;
+    /*float: right;*/
+   margin-left: 52%;
+
 }
 .button1:hover{
     cursor: pointer;
@@ -166,7 +218,7 @@ header{
 .form {
     width: 100%;
     float: left;
-    margin-top: 520px;
+    margin-top: 18em;
 
 }
 
