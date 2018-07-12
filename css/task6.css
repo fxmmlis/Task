@@ -1,43 +1,44 @@
 .body
-{width: 100%;
+{width: 100%;font-size: 62.5%;
 }
 .head{
     background-color: #5fc0cd;
     text-align: center;
-    height: 150px;
-
+    height:10em;
+    width: 100%;
+    position: fixed;
 }
 .button-group {
-    padding-top:50px;
+    position: absolute;
+    padding-top: 2.5em;
+    width: 100%;
+    height: 100%;
+   padding-right: 10%;
     font-family: "Microsoft Yahei", "微软雅黑";
-    font-size: 40px;
+    font-size: 2em;
     color: #5fc0cd;
-
 }
 .head-img{
-    width:100px;
+    width:5%;
     float: right;
-    margin-top: -70px;
-
+    margin-top:5em;
+    margin-right:3em;
 }
 .btn1{
-    width: 30%;
-    height: 75px;
+    width: 37%;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     border-style:solid;
     border-color: #5fc0cd;
 
 }
 .btn2{
-    width: 30%;
-    height: 75px;
+    width: 37%;
     background-color: white;
-    border-radius: 15px;
-    margin-left: -25px;
+    border-radius: 10px;
+    margin-left: -15px;
     border-style:solid;
     border-color: #5fc0cd;
-
 }
 .btn1:hover{
     cursor: pointer;
@@ -49,3 +50,101 @@
     background-color:#55a8b3;
     color: white;
 }
+.part-two{
+    position: fixed;
+    float:left;
+    width: 100%;
+    height: 4em;
+    border-bottom:0.01em solid gray;
+    margin-top: 10em;
+    margin-bottom: 1em;
+    z-index: 5;
+    background: white;
+}
+.dropdown{
+    float: left;
+    width: 30%;
+    height:4em;
+    margin-top: 0.5em;
+    margin-left: 2.5%;
+    text-align: center;
+}
+#dropdownMenu1,#dropdownMenu2{
+    width: 100%;
+    border-right:0.05em solid gray;
+}
+#dropdownMenu1,#dropdownMenu2,#dropdownMenu3{
+    font-size:1.2em;
+    background-color: white;
+    color: gray;
+}
+
+.menuitem{width:100%;
+}
+.btn .caret {
+    border-top: 12px solid;
+    margin-left: 15px;
+}
+
+.dropdown-menu{
+    margin-top: -1em;
+    min-width:0px;
+    width: 100%;
+}
+.line-one{
+    float:left;
+    list-style-type:none;
+    font-size: 1em;
+    color: gray;
+    width: 100%;
+    border-bottom:0.05em solid gray;
+    z-index: 2;
+    padding-left: 1em;
+}
+.line-one1{
+    display: inline-block;
+    background: url("../image/task6/calendar.jpg")0 10% no-repeat;
+    background-size: 20px 20px;
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+.line-one2{
+    margin-left:2em;
+
+    }
+.line-one3{
+    display: inline-block;
+    float: right;
+     color: red;
+    font-size: 1em;
+    background: url("../image/task6/arrow-right.png") 75% 5% no-repeat;
+    background-size: 20px 20px;
+    width: 8em;
+    height: 2.5em;
+    padding-right: 1em;
+}
+.line-one4{
+    display: inline-block;
+    background: url("../image/task6/roadsign.png")0 10% no-repeat;
+    background-size: 20px 20px;
+    padding-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+.partthree{
+    float: left;
+    margin-top: 15em;
+
+}
+.part-four{
+    width: 100%;
+    background-color: #f8fafb;
+    display: flex;
+    justify-content:space-around;line-height: 6em;
+    height: 6em;
+}
+
+
+
+
