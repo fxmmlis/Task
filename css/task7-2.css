@@ -1,0 +1,107 @@
+body{
+    background-color: #29bde0;
+
+}
+.part1{
+    width: 100%;
+    background-color: #29bde0;
+    position: fixed;
+    z-index: 5;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 2em;
+    margin-top: 1em;
+}
+.radioplay {
+    background-color: #b9e9f5;
+    display: inline-block;
+    font-size: 1.2em;
+    height: 2.5em;
+    width: 100%;
+    line-height: 2.5em;
+    margin-top: 0.5em;
+}
+.radioplay1{
+    margin-left: 11%;
+}
+.radioplay2{
+   float:right;
+    margin-right:10% ;
+}
+.message{
+    color: white;
+   display: inline-block;
+    margin:-5px  0 0 3em;
+}
+.part2{
+width: 100%;
+padding-top: 12em;
+
+}
+
+ul{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+}
+.card> li{
+    float: left;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    border: 4px solid white;
+    margin: 0 5% 15% 7%;
+
+}
+
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height:6em;
+    z-index: 2;
+    background-color:  #29bde0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 10vw;
+
+}
+.button1{
+    text-align: center;
+    background-color: #fbb435;
+    color: white;
+    width: 60%;
+    height: 50%;
+    border: none;
+   margin-top: 1.25em;
+
+}
+.ID{
+    font-size: 1.3em;
+    text-align: center;
+    height: 70%;
+    line-height: 14vw;
+    background-color:#f5c97b ;
+
+}
+.number{
+    line-height: 6vw;
+    height: 30%;
+    background-color: #83b09a;
+}
+.picture {
+    display: none;
+    margin-top: 2vw;
+}
+li:hover .picture{
+display:flex;
+    justify-content: space-between;
+}
+
+
+

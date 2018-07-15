@@ -1,0 +1,140 @@
+body{
+    background-color: #29bde0;
+}
+.partone{
+    width: 100%;
+    background-color:#29bde0 ;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5em;
+    /*margin-top: 1vw;*/
+    border-bottom: 2px solid #74d4eb;
+    padding-bottom: 2vw;
+    top:0;
+    padding-top: 5vw;
+    z-index: 10;
+    background-color:#29bde0 ;
+
+}
+.picture-win{
+    width: 100%;
+    text-align: center;
+    margin-top: 18vw;
+}
+.text1{
+    float: left;
+    margin:10vw 15% ;
+    width: 70%;
+    color:#ffc865;
+    font-size: 1.3em;
+    z-index: 8;
+
+}
+.text2{
+    float: left;
+    margin:0 15%;
+    width: 70%;
+    color:white;
+    font-size: 1em;
+    z-index: 9;
+}
+.text3{
+    float: left;
+    margin:0 15%;
+    width: 70%;
+    color:white;
+    font-size: 1em;
+}
+.text4{
+    float: left;
+    margin:0 15%;
+    width: 70%;
+    color:white;
+    font-size: 1em;
+}
+ul{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    float: left;
+    width: 30%;
+    height: 7vw;
+    text-align: center;
+    color:white;
+}
+.ID{
+    letter-spacing: 1em;
+}
+.num{
+    margin-left: -1.2em;
+}
+.IDsp{
+    letter-spacing: 0.1em;
+}
+.numsp{
+    margin-left: -0.3em;
+}
+.parttwo{
+    float: left;
+    background-color: white;
+    width: 100%;
+    padding-bottom:20vw;
+
+}
+.content {
+    width: 80%;
+    margin-left: 10%;
+    color:#a6a6a6;
+
+}
+p{
+    margin: 0;
+}
+.day{
+    display: flex;
+    justify-content:space-between;
+}
+.day1{
+    color: black;
+    font-size: 1em;
+}
+.divdline{
+    width: 100%;
+    border-bottom: 1px solid #a6a6a6;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background:#29bde0 ;
+    height: 20vw;
+    padding-top: 5vw;
+    text-align: center;
+    background:rgba(41, 189, 224 ,0.5);
+
+}
+
+.btn1{width: 40%;
+       border: none;
+       color: white;
+    background-color: #f66f6f;
+    height: 10vw;
+    border-radius: 5px;
+    z-index: 4;
+}
+.btn2{width: 40%;
+    border: none;
+    color: white;
+    background-color:#fbb435;
+    height: 10vw;
+    border-radius: 5px;
+}

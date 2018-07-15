@@ -1,0 +1,92 @@
+body {
+    font-size: 62.5%;
+    background-color: #f0f0f0;
+  }
+
+.head{
+    position: fixed;
+    width:100%;
+    height:8em;
+    background-color: #29bde0;
+    padding:4em 0 0 1em;
+    z-index: 2;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:100% ;
+}
+.part1{
+    position: absolute;
+    width: 80%;
+    height:4em;
+    background-color: white;
+    margin-top: 9em;
+    text-align: center;
+    line-height: 4em;
+    font-family: "Microsoft Yahei", "微软雅黑";
+}
+.picture{
+    background: url("../image/task7/arrow.png") 98% 65% no-repeat;
+    font-size: 2.5em;
+    color: #9a9a9a;
+}
+.part2{
+    position: absolute;
+    background: white;
+    width: 80%;
+    /*height: 32em;*/
+    margin-top:14em;
+}
+.line1{
+    color: #fbb435;
+    border-bottom:0.01em solid #fbb435;
+    text-align: center;
+    font-size: 2.5em;
+    height: 3em;
+    line-height: 3em;
+}
+.line2{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    width: 80%;
+    height: 4em;
+    line-height: 4em;
+    background-color: #69d1e9;
+    margin-top: 0.8em;
+    margin-left: 10%;
+    margin-bottom: 0.8em;
+}
+.line3{
+    text-align: center;
+    color: #787878;
+}
+.box{
+    display: flex;
+    width: 20%;
+    margin-left:40%;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.box1{
+    width: 1em;
+    height: 1em;
+    border: 0.2em solid #f0f0f0;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+.box1special  {
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid #69d1e9;
+    border-radius: 50%;
+    background-color: #69d1e9;
+}
+.part2 img{
+    position: absolute;
+   left:93%;
+    top:48%;
+}
