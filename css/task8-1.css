@@ -1,0 +1,424 @@
+body{
+    Font-size:62.5%;
+    background-color: #fafafa}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    background: white;
+
+}
+.connect{
+    width: 62%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19%;
+      color: #78cdaa;
+      font-size: 1em;
+         height:3em;
+    align-items: center;
+
+
+}
+.headtext{
+    margin: 0;
+
+}
+.headimg{
+    padding-left: 1em;
+}
+.title{
+    height:4em;
+    background-color: #29b078;
+    font-size: 1.5em;
+}
+.titlle1{
+    float: right;
+    color: white;
+    line-height: 4em;
+    padding: 0 1vw;
+    height: 4em;
+}
+.titlegrop{
+    width: 82%;
+}
+.titlle1:hover{
+    cursor: pointer;
+    border-bottom: 0.2em solid white;
+}
+.picture{
+   position: absolute;
+    /*background: url("../image/task8/work.png");*/
+    background-size: 100% 100%;
+    height:50vw;
+    width: 100%;
+    margin-top: 6em;
+
+
+}
+.slogn{
+   position: absolute;
+    width: 80%;
+    font-family: 黑体;
+    color: white;
+    height: 10vw;
+    margin-top: -20vw;
+}
+.slogn1{
+
+    font-size: 2vw;
+   float: right;
+}
+.slogn2{
+    position: absolute;
+    font-size: 3vw;
+    padding:4vw 0 0 20%;
+}
+.slogn3{
+    position: absolute;
+    font-size: 2.3vw;
+    padding:4.5vw 0 0 28%;
+
+}
+
+.introduce{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 50% 19% 10vw 19%;
+    width: 62%;
+    height: 30vm;
+
+
+}
+.introduce1{
+    width: 25%;
+    height: 100%;
+    margin-top: 3vw
+}
+.introduceimg{
+
+height:5vw;    width: 25%;
+margin-left: 30%;
+
+
+}
+.introducetext{
+    margin-top:5vw;
+    font-size: 1vw;
+    float: left;
+    padding: 0 10px;
+}
+@media screen and (max-width:600px){
+    .titlle1{
+        display:none;
+    }
+}
+.introduceimg2{
+    display: block;
+    padding: 20% 0 0 10%;
+    border-left: 2px dashed #999999;
+    margin-left: 5%;
+
+}
+.study{
+    position: absolute;
+    width: 65%;
+    margin: 85vw 0 0 17%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+
+}
+.circlepath1{
+    position: absolute;
+    width: 65%;
+    margin: 95vw 0 0 17%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3vw;
+    align-items: center;
+
+}
+.circlegroup1 {width: 7vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: 2px solid #ededed;
+    background: white;
+    text-align: center;
+    line-height: 6vw;
+
+}
+.pathtext{
+    display: block;
+    width: 20%;
+    line-height: 2vw;
+    font-size: 5px;
+    margin: 0 10px;
+}
+.circlegroup-img{
+    display: block;
+
+}
+.circlepath2{
+    position: absolute;
+    width: 65%;
+    margin: 100vw 0 0 17%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3vw;
+    align-items: center;
+
+}
+.circlegroup2 {width: 7vw;
+    height: 6vw;
+    margin: 13vw 0;
+    border-radius: 50%;
+    border: 2px solid #ededed;
+    background: white;
+    text-align: center;
+    line-height: 6vw;
+
+}
+.student{
+    position: absolute;
+    width: 65%;
+    margin:130vw 0 0 17.5%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+
+}
+.studentbox{
+    position: absolute;
+    width: 65%;
+    height: 20em;
+    margin: 140vw 0 0 17.5%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+h6{
+    font-weight: bolder;
+    margin: 1em 0 1em 0;
+
+}
+.studentbox1{
+    width: 23%;
+    height: 100%;
+    border: 1px solid #eeeded;
+    box-shadow: 2px 2px 3px #aaaaaa;
+    background: white;
+    text-align: center;
+
+
+}
+.studentimg1 {
+    width: 4.5em;
+    height:22.5%;
+    background:url("../image/task8/sheldon.png" ) no-repeat;
+    background-size:4.5em 4.5em;
+    border-radius: 50%;
+    margin: 1em auto;
+
+}
+.studentimg2 {
+    width: 4.5em;
+    height:22.5%;
+    background:url("../image/task8/leonard.png" ) no-repeat;
+    background-size:4.5em 4.5em;
+    border-radius: 50%;
+    margin: 1em auto;
+
+}
+
+.studentimg3 {
+    width: 4.5em;
+    height:22.5%;
+    background:url("../image/task8/howard.png" ) no-repeat;
+    background-size:4.5em 4.5em;
+    border-radius: 50%;
+    margin: 1em auto;
+
+}
+
+.studentimg4 {
+    width: 4.5em;
+    height:22.5%;
+    background:url("../image/task8/Rajesh.png" ) no-repeat;
+    background-size:4.5em 4.5em;
+    border-radius: 50%;
+    margin: 1em auto;
+
+}
+.switchgroup{
+    position: absolute;
+    width: 65%;
+    margin:175vw 0 0 17.5%;
+    display: flex;
+    padding-left: 28%;
+
+
+}
+
+
+.studentswitch{
+
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    border: 2px solid #eeeded;
+    background: white;
+   margin: 0 2px;
+
+}
+.studentswitch:hover{
+    cursor: pointer;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    border: 2px solid #eeeded;
+    background: #29b078;
+}
+.co-partner{
+    position: absolute;
+    width: 65%;
+    margin:183vw 0 0 17.5%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.co-partnerimg{
+    position: absolute;
+    width: 65%;
+    margin: 195vw 0 25vw 17.5%;
+    display: flex;
+    background: white;
+
+
+}
+.co-partnerimg img{
+    width: 20%;
+    height: 10vw;
+    margin-left: 0.5vw;
+}
+.linker{
+    position: absolute;
+    top: 210vw;
+    width: 100%;
+    height: 10vw;
+    background: white;
+}
+.linker-infor{
+    width: 80%;
+    /*text-align: center;*/
+    margin: 0 10%;
+
+
+}
+.linker ul{
+    display: flex;
+    justify-content: space-between;
+}
+.linker p{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+   top: 220vw;
+    width: 100%;
+    height: 11vw;
+    background: #29b078;
+}
+.footerbox{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+
+}
+.footerbox p {
+    color: white;
+    font-size: 1vw;
+
+}
+.footerbox1 {
+    width: 30%;
+    height: 8vw;
+    margin: 1vw 0;
+
+
+
+}
+.footerbox1x{
+    display: flex;
+    padding-top: 2%;
+
+}
+.footerbox1x div{
+    margin: 0 2px;
+    padding-right: 5px;
+    border-right: 2px solid white;
+    color: white
+}
+.footerbox2 {
+    width: 40%;
+    height: 8vw;
+    margin: 1vw 0 2vw 0;
+
+}
+.footerbox2x{
+    margin-left: 2vw;
+
+}
+.footerbox1y{
+    display: flex;
+flex-direction: column;
+    color: white;
+
+
+}
+
+
+
+.footerbox3{
+    width: 30%;
+    height: 8vw;
+    margin: 1vw 0 0 0;
+    text-align: right;
+
+}
+.footer-last{
+    position: absolute;
+   top: 228vw;
+    width: 100%;
+    height: 2vw;
+    color: white;
+    text-align: center;
+    margin: 1vw 0 0 0;
+}
+.linker li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #26a26f;
+}
+.footerbox1x div:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
+.footerbox1y span:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.footer-last{
+    border-top: 1px solid #32c086;
+}
+
+.co-partnerimg img:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #aaaaaa;
+}
