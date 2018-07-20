@@ -1,0 +1,263 @@
+body{
+    Font-size:62.5%;
+    background-color: #fafafa}
+.head{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 4;
+    background: white;
+
+}
+.connect{
+    width: 62%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19%;
+    color: #78cdaa;
+    font-size: 1rem;
+    height:3rem;
+    align-items: center;
+
+
+}
+.headtext{
+    margin: 0;
+
+}
+.headimg{
+    padding-left: 1rem;
+}
+.title{
+    height:5rem;
+    background-color: #29b078;
+    font-size: 1.5rem;
+
+}
+.titlegroup{
+    width: 62%;
+    margin-left: 19%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.titlle1{
+    float: right;
+    color: white;
+    line-height: 5rem;
+   margin: 0 0 0 2rem;
+    height: 5rem;
+}
+
+.titlle1:hover{
+    cursor: pointer;
+    border-bottom: 0.2rem solid white;
+}
+.page2headimg{
+    width: 100%;
+    height: 12rem;
+    padding-left: 19%;
+    background-color: #f1a750;
+}
+
+.page2headtext{
+    position: absolute;
+    margin: -8rem 14rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: right;
+
+}
+.page2headtext1{
+    margin: 0 0;
+}
+.page2headtext2{
+    margin: 0 0;
+    font-size: 1rem;
+}
+.page2headtext3{
+    position: absolute;
+    margin:-6rem 38rem;
+    width: 100%;
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+
+
+}
+
+.firstpage{
+    margin:2rem 0 2rem 19%;
+    font-size: 1.5rem;
+}
+.firstpage1{
+    font-weight: bolder;
+}
+.firstpage2{
+    color:#29b078 ;
+    font-weight: bolder;
+}
+.secondcontent{
+   display: flex;
+    width: 62%;
+    margin: 0 19% 0 19%;
+
+
+}
+.content-left{
+    margin: 0 0 3rem 0;
+    width: 28%;
+    background-color: white;
+    text-align: center;
+    border: 2px ;
+    border: 1px solid #e6e6e6;
+    height:fit-content;
+}
+.content-left1{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.content-left2{
+    padding: 1rem 0 2rem 0;
+    width: 100%;
+
+
+}
+.content-left2item{
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    width: 60%;
+    margin: 2rem 20% 0 20%;
+}
+.content-left2circle{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-right: 0.6rem;
+}
+.content-left2text{
+    color: #29b078;
+}
+.content-left2item:hover .content-left2text{
+    cursor: pointer;
+    color: red;
+
+}
+.content-left2item:hover .content-left2circle{
+    cursor: pointer;
+    background-color: #f9a372;
+
+}
+.content-right{
+    width: 70%;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    margin: 0 0 3rem 2%;
+    border: 1px solid #e6e6e6;
+    height:fit-content;
+}
+.content-right1{
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.content-right1img img{
+    /*width: 30%;*/
+    padding: auto 0;
+
+
+}
+.content-right1txt{
+    width: 70%;
+    /*margin-left: 20%;*/
+}
+.content-right2{
+    padding: 2rem 2rem;
+}
+.content-right2 p {  text-indent:2em ;  }
+
+.footer{
+    width: 100%;
+    background: #29b078;
+}
+.footerbox{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    color: white;
+    font-size: 1vw;
+}
+
+.footerbox1 {
+    width: 40%;
+    margin: 1rem 0;
+
+}
+.footerbox1x{
+    display: flex;
+    padding-top: 1rem;
+
+}
+.footerbox1x div{
+    margin: 0 2px;
+    padding-right: 5px;
+    border-right: 2px solid white;
+    color: white
+}
+.footerbox2 {
+    width: 40%;
+    margin: 1rem 0 0 2rem;
+
+}
+.footerbox2-{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footerbox2-x{
+    margin-left: 2rem;
+
+}
+
+
+
+
+.footerbox3{
+    width: 20%;
+    margin: 1rem 0 0 0;
+
+}
+.footer-last{
+
+    width: 100%;
+
+    color: white;
+    text-align: center;
+  padding: 0.5rem 0;
+    background-color: #29b078;
+}
+
+
+.footerbox1x div:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
+.footerbox2- span:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.footer-last{
+    border-top: 2px solid #32c086;
+}
