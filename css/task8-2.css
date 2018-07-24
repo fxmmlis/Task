@@ -87,17 +87,7 @@ body{
 
 }
 
-.firstpage{
-    margin:2rem 0 2rem 19%;
-    font-size: 1.5rem;
-}
-.firstpage1{
-    font-weight: bolder;
-}
-.firstpage2{
-    color:#29b078 ;
-    font-weight: bolder;
-}
+
 .secondcontent{
    display: flex;
     width: 62%;

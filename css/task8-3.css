@@ -1,0 +1,378 @@
+body{
+    Font-size:62.5%;
+    background-color: #fafafa;
+  }
+.head{
+    background: white;
+}
+
+.headgrid{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color:#29b078;
+    height:3rem;
+    line-height: 3rem;
+}
+.headimg{
+    padding-left: 0.5rem;
+}
+.login{
+    display: none;
+}
+/*分辨率<768px时 head的样式*/
+@media screen and (max-width: 992px) {
+    .headgrid {
+        display: none;
+    }
+
+    .login {
+        display: block !important;
+        width: 100%;
+        text-align: right;
+        padding-right: 5%;
+    }
+}
+/*title样式*/
+    .title{
+        width: 100%;
+        height: 6rem;
+        background-color:#29b078 ;
+    }
+
+    .titlegroup{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 6rem;
+}
+    .titlegroup p{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+    .titlegroup a{
+    display:block;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+.titlesp{
+    display: none;
+}
+
+/*此处a标签有点问题*/
+
+@media screen and (max-width: 992px) {
+    .titlegroup a {display:none}
+    .titlesp
+    {display: block;
+        margin: -5rem 5% 0 0;
+        float:right;
+    }
+    .nav .open>a:hover {
+    background-color: #29b078;
+}
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+        background-color: #29b078;
+    }
+    .dropdown-menu{
+        min-width:1rem;
+        margin: -5px -5px;
+    }
+}
+
+/*首页及导航*/
+.firstpage{
+
+    width: 80%;
+    padding: 1rem 0;
+    margin:0 10%;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #d0d6d9;
+    font-weight: bolder;
+}
+
+.firstpage2{
+    color:#29b078 ;
+}
+
+.direction{
+    width: 78%;
+    display: block;
+    margin: 1rem 11%;
+
+    font-weight: bolder;
+    text-align: center;
+}
+.directiongroup{
+    border-bottom: 1px solid #d0d6d9;
+    /*margin: 2rem 1px 2rem 1px;*/
+    padding-bottom: 1rem;
+}
+.direction1{
+    display: block;
+    color: #d0d0d0;
+    padding: 1rem 0;
+}
+.direction2{
+display: block;
+    padding:1rem 0;
+}
+.direction2:hover{
+    cursor: pointer;
+    background-color: #29b078;
+    color: white;
+}
+
+/*职业介绍*/
+.webdirection{
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 90%;
+    margin: 1rem 5%;
+    padding: 2rem 0 ;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.jobtable {
+               margin-top:0.3rem;
+               padding-left:0;
+               /*width:30%;*/
+           }
+
+
+.tableitem{
+    /*padding-top:0.2rem;*/
+    border:1px solid #eeeded;
+    border-bottom:none;
+    display: flex;
+}
+.item1{
+   width: 100%;
+padding: 1rem 1rem;
+}
+.item2{
+    padding: 1rem 0;
+}
+.describ,.notice{
+    color: #d0d0d0;
+}
+.describsp{
+    color: black;
+    font-weight: bolder;
+}
+
+.salary{
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+
+}
+.describslary
+{
+    color: #d0d0d0;
+
+;
+}
+
+.red{
+    color: red;
+    padding-left: 1rem;
+}
+.redsp{color: red;}
+.describ img{
+    padding-left: 1rem;
+}
+.transparent{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.6);
+    height: 36rem;
+    margin: -37rem 0;
+    padding: 2rem 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    display: none;
+
+}
+.transparent p{
+    text-indent: 2rem;
+    padding: 2rem 0;
+}
+.jobtable:hover .transparent{
+    display: block;
+}
+/*.hoversp{*/
+    /*background-color: black;*/
+    /*color: white;*/
+    /*font-weight: bolder;*/
+
+    /*!*display: none;*!*/
+
+
+/*}*/
+/*.hoversp h4{*/
+    /*text-align: center;*/
+    /*padding: 2rem 0*/
+/*}*/
+/*.hoversp {*/
+    /*position: absolute;*/
+    /*margin: 8% 10px ;*/
+    /*height:35.5rem;*/
+/*}*/
+
+/*!*}*!*/
+.foot{
+    margin-top:2rem;
+    position: relative;
+    background-color:#29b078;
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+    height:2.01rem;
+    color:white;
+    font-size:0.16rem;
+}
+/*footer*/
+footer a{
+    font-size:0.14rem;
+    color:white;
+    text-decoration: none;
+    padding-bottom:5px;
+}
+footer a:hover{
+    color:white;
+    border-bottom:1px solid white;
+
+    text-decoration: none;
+}
+.aboutus{
+    padding-top:0.37rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.middle1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyright {
+    padding-top: 0.1rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    color: white;
+    font-size: 0.13rem;
+    border-top: 1px solid #32c086;
+
+}
+
+
+
+
+.footer{
+    width: 100%;
+    background: #29b078;
+}
+.footerbox{
+    width: 80%;
+margin: 0 10%;
+    display: flex;
+    color: white;
+    font-size: 1vw;
+}
+
+.footerbox1 {
+
+    margin: 1rem 0;
+
+}
+.footerbox1x{
+    display: flex;
+    padding-top: 1rem;
+
+
+}
+.footerbox1x div{
+    margin: 0 2px;
+    padding-right: 5px;
+    border-right: 2px solid white;
+    color: white
+}
+.footerbox1x,a{
+    text-decoration: none;
+    color: white;
+}
+.footerbox2 {
+
+    margin: 1rem 0 0 2rem;
+
+}
+.footerbox2-{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footerbox2-x{
+    margin-left: 2rem;
+
+}
+
+
+
+
+.footerbox3{
+
+    margin: 1rem 0 0 0;
+
+}
+.footer-last{
+
+    width: 100%;
+
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: #29b078;
+}
+
+
+.footerbox1x div:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
+.footerbox2- span:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.footer-last {
+    border-top: 2px solid #32c086;
+}
+@media screen and (max-width:992px){
+.footerbox{
+    width: 100%;
+
+
+}
+    .footerbox2{
+        margin: 0;
+    }
+
+}

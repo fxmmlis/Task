@@ -422,6 +422,7 @@ flex-direction: column;
     cursor: pointer;
     box-shadow: 2px 2px 3px #aaaaaa;
 }
-a{
-    ext-decoration : none
+a:hover {
+    text-decoration:none;
 }
+
